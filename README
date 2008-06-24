@@ -1,0 +1,69 @@
+claws-mail-themes
+------------------------------------------
+Claws Mail icon themes
+
+
+Canonical website:
+  http://www.claws-mail.org/themes.php
+
+Canonical download:
+  http://www.claws-mail.org/themes/
+
+-------------------------------------------
+
+Build instructions:
+  unpack claws-mail-themes-20070116-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./claws-mail-themes-20070116-X.cygport all
+
+This will create:
+  /usr/src/claws-mail-themes-20070116-X-src.tar.bz2
+  /usr/src/claws-mail-themes-20070116-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/share/claws-mail/themes/Crystal/*
+  /usr/share/claws-mail/themes/Everaldo_Kids/*
+  /usr/share/claws-mail/themes/Gnomaws-0.6a/*
+  /usr/share/claws-mail/themes/Gnomeria/*
+  /usr/share/claws-mail/themes/Gorillaws/*
+  /usr/share/claws-mail/themes/Graphitte-0.9.7/*
+  /usr/share/claws-mail/themes/GurUnix/*
+  /usr/share/claws-mail/themes/Korillaws/*
+  /usr/share/claws-mail/themes/Kovico-claws/*
+  /usr/share/claws-mail/themes/Logos-1.0.1/*
+  /usr/share/claws-mail/themes/New_Session/*
+  /usr/share/claws-mail/themes/Old_Dark_Theme/*
+  /usr/share/claws-mail/themes/Phoenity/*
+  /usr/share/claws-mail/themes/Plain_and_Bluish/*
+  /usr/share/claws-mail/themes/Skypilot_Clawssic/*
+  /usr/share/claws-mail/themes/SylZilla/*
+  /usr/share/claws-mail/themes/Sylpholution/*
+  /usr/share/claws-mail/themes/TangoClaws-0.3/*
+  /usr/share/claws-mail/themes/TangoOrbit/*
+  /usr/share/claws-mail/themes/XeNtish/*
+  /usr/share/claws-mail/themes/achileus-noname/*
+  /usr/share/claws-mail/themes/black/*
+  /usr/share/claws-mail/themes/blue_anarchy/*
+  /usr/share/claws-mail/themes/clawsola/*
+  /usr/share/claws-mail/themes/mongrel/*
+  /usr/share/claws-mail/themes/mongrel2/*
+  /usr/share/claws-mail/themes/mozilla/*
+  /usr/share/claws-mail/themes/orbit-claws/*
+  /usr/share/claws-mail/themes/stw/*
+  /usr/share/claws-mail/themes/tml02c/*
+
+------------------
+
+Port Notes:
+
+----- version 20070116-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/

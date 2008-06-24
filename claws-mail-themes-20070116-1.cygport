@@ -1,0 +1,8 @@
+DESCRIPTION="Claws Mail icon theme sets"
+HOMEPAGE="http://www.claws-mail.org/"
+SRC_URI="mirror://sourceforge/sylpheed-claws/${P}.tar.bz2"
+
+src_compile() {
+	cd ${B}
+	cygconf
+}
