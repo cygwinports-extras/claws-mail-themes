@@ -1,0 +1,10 @@
+DESCRIPTION="Claws Mail icon theme sets"
+HOMEPAGE="http://www.claws-mail.org/"
+SRC_URI="http://www.claws-mail.org/themes/${P}.tar.gz"
+
+src_compile() { :; }
+
+src_install() {
+	dodir /usr/share/claws-mail/themes
+	find ${S} -mindepth 1 -type d ! -name CYGWIN-PATCHES -print0 | xargs -0 cp -r -t ${D}/usr/share/claws-mail/themes/
+}
