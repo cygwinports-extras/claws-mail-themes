@@ -12,15 +12,15 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack claws-mail-themes-20080822-X-src.tar.bz2
+  unpack claws-mail-themes-20090404-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./claws-mail-themes-20080822-X.cygport all
+  cygport ./claws-mail-themes-20090404-X.cygport all
 
 This will create:
-  /usr/src/claws-mail-themes-20080822-X-src.tar.bz2
-  /usr/src/claws-mail-themes-20080822-X.tar.bz2
+  /usr/src/claws-mail-themes-20090404-X-src.tar.bz2
+  /usr/src/claws-mail-themes-20090404-X.tar.bz2
 
 -------------------------------------------
 
@@ -31,6 +31,7 @@ Files included in the binary package:
   /usr/share/claws-mail/themes/black/*
   /usr/share/claws-mail/themes/Blaue_Klaue/*
   /usr/share/claws-mail/themes/blue_anarchy/*
+  /usr/share/claws-mail/themes/buuf/*
   /usr/share/claws-mail/themes/clawsola/*
   /usr/share/claws-mail/themes/Coons_Blue-0.2/*
   /usr/share/claws-mail/themes/Crystal/*
@@ -40,6 +41,7 @@ Files included in the binary package:
   /usr/share/claws-mail/themes/Gorillaws/*
   /usr/share/claws-mail/themes/Graphitte-0.9.7/*
   /usr/share/claws-mail/themes/GurUnix/*
+  /usr/share/claws-mail/themes/hash303030/*
   /usr/share/claws-mail/themes/Korillaws/*
   /usr/share/claws-mail/themes/Kovico-claws/*
   /usr/share/claws-mail/themes/Logos-1.0.1/*
@@ -56,7 +58,7 @@ Files included in the binary package:
   /usr/share/claws-mail/themes/stw/*
   /usr/share/claws-mail/themes/Sylpholution/*
   /usr/share/claws-mail/themes/SylZilla/*
-  /usr/share/claws-mail/themes/Tango/*
+  /usr/share/claws-mail/themes/Tango_v1.2/*
   /usr/share/claws-mail/themes/TangoClaws-0.3/*
   /usr/share/claws-mail/themes/TangoOrbit/*
   /usr/share/claws-mail/themes/tml02c/*
@@ -69,11 +71,8 @@ Files included in the binary package:
 
 Port Notes:
 
------ version 20080822-1 -----
-Version bump.
-
------ version 20070116-1 -----
-Initial release for Cygwin.
+----- version 20090404-1 -----
+Initial release for Cygwin 1.7.
 
 
 Cygwin port maintained by:
