@@ -12,64 +12,22 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack claws-mail-themes-20090404-X-src.tar.bz2
+  unpack claws-mail-themes-20100514-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./claws-mail-themes-20090404-X.cygport all
+  cygport ./claws-mail-themes-20100514-X.cygport all
 
 This will create:
-  /usr/src/claws-mail-themes-20090404-X-src.tar.bz2
-  /usr/src/claws-mail-themes-20090404-X.tar.bz2
+  /usr/src/claws-mail-themes-20100514-X-src.tar.bz2
+  /usr/src/claws-mail-themes-20100514-X.tar.bz2
 
 -------------------------------------------
 
-Files included in the binary package:
-
-  /usr/share/claws-mail/themes/achileus-noname/*
-  /usr/share/claws-mail/themes/A_Ducks_Claw/*
-  /usr/share/claws-mail/themes/black/*
-  /usr/share/claws-mail/themes/Blaue_Klaue/*
-  /usr/share/claws-mail/themes/blue_anarchy/*
-  /usr/share/claws-mail/themes/buuf/*
-  /usr/share/claws-mail/themes/clawsola/*
-  /usr/share/claws-mail/themes/Coons_Blue-0.2/*
-  /usr/share/claws-mail/themes/Crystal/*
-  /usr/share/claws-mail/themes/Everaldo_Kids/*
-  /usr/share/claws-mail/themes/Gnomaws-0.6a/*
-  /usr/share/claws-mail/themes/Gnomeria/*
-  /usr/share/claws-mail/themes/Gorillaws/*
-  /usr/share/claws-mail/themes/Graphitte-0.9.7/*
-  /usr/share/claws-mail/themes/GurUnix/*
-  /usr/share/claws-mail/themes/hash303030/*
-  /usr/share/claws-mail/themes/Korillaws/*
-  /usr/share/claws-mail/themes/Kovico-claws/*
-  /usr/share/claws-mail/themes/Logos-1.0.1/*
-  /usr/share/claws-mail/themes/mongrel/*
-  /usr/share/claws-mail/themes/mongrel2/*
-  /usr/share/claws-mail/themes/mozilla/*
-  /usr/share/claws-mail/themes/Navigator/*
-  /usr/share/claws-mail/themes/New_Session/*
-  /usr/share/claws-mail/themes/Old Dark Theme/*
-  /usr/share/claws-mail/themes/orbit-claws/*
-  /usr/share/claws-mail/themes/Phoenity/*
-  /usr/share/claws-mail/themes/Plain_and_Bluish/*
-  /usr/share/claws-mail/themes/Skypilot Clawssic/*
-  /usr/share/claws-mail/themes/stw/*
-  /usr/share/claws-mail/themes/Sylpholution/*
-  /usr/share/claws-mail/themes/SylZilla/*
-  /usr/share/claws-mail/themes/Tango_v1.2/*
-  /usr/share/claws-mail/themes/TangoClaws-0.3/*
-  /usr/share/claws-mail/themes/TangoOrbit/*
-  /usr/share/claws-mail/themes/tml02c/*
-  /usr/share/claws-mail/themes/tom_2.1.1/*
-  /usr/share/claws-mail/themes/UltimateClawsMail0.5.1/*
-  /usr/share/claws-mail/themes/XeNtish/*
-  /usr/share/claws-mail/themes/ZX-0_1.1/*
-
-------------------
-
 Port Notes:
+
+----- version 20100514-1 -----
+Version bump.
 
 ----- version 20090404-1 -----
 Initial release for Cygwin 1.7.
