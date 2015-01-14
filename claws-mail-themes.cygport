@@ -1,6 +1,13 @@
-DESCRIPTION="Claws Mail icon theme sets"
+NAME="claws-mail-themes"
+VERSION=20120129
+RELEASE=1
+CATEGORY="Mail"
+SUMMARY="Claws Mail icon themes"
+DESCRIPTION="Claws Mail icon themes"
 HOMEPAGE="http://www.claws-mail.org/"
-SRC_URI="http://www.claws-mail.org/themes/${P}.tar.gz"
+SRC_URI="http://www.claws-mail.org/themes/${NAME}-${VERSION}.tar.gz"
+
+ARCH=noarch
 
 src_compile() { :; }
 
